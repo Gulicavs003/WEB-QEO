@@ -1,0 +1,159 @@
+body{
+  background: rgba(76,76,76,1);
+  }
+
+  a{
+    text-decoration: none;
+  }
+  .servicio{
+      margin: 20px;
+    }
+    .services{
+     background: black;
+     text-align: center;
+     color:  rgba(76,76,76,1);
+   
+   }
+   .services h1{
+     display: inline-block;
+     text-transform: uppercase;
+     border-bottom: 4px solid red;
+     font-size: 20px;
+     padding-bottom: 10px;
+     margin-top: 40px;
+   }
+   
+   .cen{
+     max-width: 1200px;
+     margin: auto;
+     overflow: hidden;
+     padding: 20px;
+   }
+   
+   
+   .servicee h2{
+     display: inline-block;
+     text-transform: uppercase;
+     border-bottom: 4px solid #318aac;
+     font-size: 20px;
+     padding-bottom: 10px;
+     margin-top: 40px;
+     color:  rgba(76,76,76,1);
+   }
+   
+   .service{
+    color: red;
+     display: inline-block;
+     width: 33%;
+     margin: 0 -2px;
+     padding: 20px;
+     box-sizing: border-box;
+     cursor: pointer;
+     transition: 0.4s;
+   }
+   .service:hover{
+    background: rgba(76,76,76,1);
+   }
+   .service i{
+      color: red;
+     font-size: 34px;
+     margin-bottom: 30px;
+   }
+   .service h2{
+     font-size: 18px;
+     text-transform: uppercase;
+     font-weight: 500;
+     margin: 0;
+     
+   }
+   .service p{
+    color:  rgba(255,255,255,1);
+     font-size: 15px;
+     font-weight: 500;
+   }
+   @media screen and (max-width: 800px) {
+     .service{
+       width: 50%;
+     }
+   }
+   @media screen and (max-width: 500px) {
+     .service{
+       width: 100%;
+     }
+   }
+   
+   .servicio{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 75px;
+     margin: 35px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    
+   }
+  
+   a {
+      
+       color: red;
+   }
+   body{
+    margin: 0;
+    padding: 0;
+    background: #e5e5e5;
+}
+.cont-reloj{
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 220px;
+    width: 40%;
+    border: 6px solid rgba(76,76,76,1);;
+    background: rgba(76,76,76,1);
+    box-shadow:  -13px -13px 13px #fff, 
+     15px 15px 15px rgba(13,39,80,.26),
+    inset -13px -13px 13px rgba(76,76,76,1);, 
+    inset 15px 15px 15px rgba(13,39,80,.26);
+     border-radius:30px;
+     font-weight: bold;
+     font-family: sans-serif;
+     color: white;
+}
+.reloj{
+    font-size:4.7em;  
+}
+.datos{
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media only screen and (max-width: 1200px) {
+.cont-reloj{
+width:50%;
+}
+}
+
+@media only screen and (max-width: 960px) {
+.cont-reloj{
+width:60%;
+}
+}
+@media only screen and (max-width: 760px) {
+.cont-reloj{
+width:65%;
+}
+}
+@media only screen and (max-width: 425px) {
+.cont-reloj{
+width:85%;
+height:150px
+}
+.reloj{
+    font-size:2.8em;  
+}
+.datos{
+font-size:1.3em
+}
+}
+
